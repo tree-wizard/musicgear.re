@@ -1,0 +1,37 @@
+baseurl = "https://musicgear.re"
+title = "Music Gear.Reverse Engineering"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "xavier cadena"
+
+
+[Author]
+    name = "X"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "MusicGear.RE"
+    description = "A site dedicated to exploration of modern music gear"
+    github = "https://github.com/xxyyx"
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 1
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 3
